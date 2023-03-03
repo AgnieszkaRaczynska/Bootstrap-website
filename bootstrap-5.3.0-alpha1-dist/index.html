@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=
+    , initial-scale=1.0"
+    />
+    <title>Bootstrap page</title>
+    <link rel="stylesheet" href="css/bootstrap.css" />
+  </head>
+
+  <body>
+    <header>
+      <nav
+        class="navbar navbar-expand-lg bg-body-tertiary navbar bg-dark"
+        data-bs-theme="dark"
+      >
+        <div class="container">
+          <a class="navbar-brand" href="#"><img src="images/logo_resta.png" class="my-2" style="width: 100px" alt=""></a></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+                
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="my-5">
+      <div class="container">
+
+        <div class="row">
+
+          <div class="col-md-7">
+            <img src="images/Image_01.jpg" class="img-fluid" alt="Food" />
+          </div>
+
+          <div class="col-md-5">
+            <h1 class="mt-5">Welcome to Resta!</h1>
+            <p class="mt-4">Established in 2003, Resta Restaurant is a family-run business offering great food and service in relaxed surroundings. Situated in the heart of the historical village of Montparnasse, Resta serves breakfast, lunch, afternoon tea and dinner using the best of fresh locally sourced ingredients. A warm welcome awaits you.</p>
+            <a href="#about"><button type="button" class="btn btn-success mt-5 opacity-75">Learn more</button></a>
+          </div>
+        </div>
+
+        <div id="about" class="row my-5">
+          <div class="col">
+            <div class="bg-success rounded text-white my-5 py-3 card text-center opacity-75">
+              <div class="card-body">
+                We believe that food is better when it's grown locally & sustainably. That's why we work with local farmers that we know & trust.
+              </div>
+              
+            </div>
+          </div>
+        </div>
+
+        <div id="cards" class="row">
+          <div class="col">
+            <div class="card-group">
+              <div class="card">
+                <img src="images/Image_02.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Fine Dining</h5>
+                  <p class="card-text">Unparalleled guest service, exquisite atmosphere, and artistic presentation come together in creating a most unique dining experience.</p>          
+                  <div><a href="#"><button type="button" class="btn btn-success opacity-75">Learn more</button></a></div>
+                  
+                  
+                </div>
+              </div>
+              <div class="card">
+                <img src="images/Image_03.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Fresh & Seasonal</h5>
+                  <p class="card-text">We offer seasonal menus to reflect the bounty of each season, local seafood, and fresh cuts sourced from farms, ranches, and fisheries with sustainability in mind.</p>            
+                  <div ><a href="#"><button type="button" class="btn btn-success opacity-75">Learn more</button></a></div>
+                  
+                </div>
+              </div>
+              <div class="card">
+                <img src="images/Image_04.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Marvelous Location</h5>
+                  <p class="card-text">Resta Restaurant is an elegant dining experience that features exemplary culinary creations from the bounty of locally grown food. </p>            
+                  <div ><a href="#"><button type="button" class="btn btn-success opacity-75">Learn more</button></a></div>
+                  
+                </div>
+              </div>
+            </div>
+
+            <div class="row my-5">
+              <div class="col">
+                <div class="bg-success rounded text-white my-5 py-3 card text-center opacity-75">
+                  <div class="card-body">
+                    We remain committed to our community and continuing in the tradition of providing a memorable fine dining experience. 
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+
+        
+        
+
+        <div class="row">         
+
+          <div id="contact" class="container">
+            <div class="text-center">
+              <h1>Let's talk!</h1>
+              <p class="lead">Do not hesitate to contact us</p>
+            </div>
+      
+            <div class="row justify-content-center my-5">
+              <div class="col-lg-6">
+                <form action="">
+
+                  <div class="form-floating my-4">
+                    <select name="subject" id="subject" class="form-select">
+                      <option value="pricing">Pricing</option>
+                      <option value="ingredients">Ingredients</option>
+                      <option value="work" >Work</option>
+                      <option value="cooperation " selected>Cooperation</option>
+                    </select>
+                    <label for="subject">Subject</label>
+                  </div>
+                  <div class="form-floating my-4">
+                    <input
+                      type="text"
+                      id="name"
+                      placeholder="eg. Ari Axelotl"
+                      class="form-control"
+                    />
+                    <label for="name">Your name</label>
+                  </div>
+      
+                  <div class="form-floating my-4">
+                    <input
+                      type="email"
+                      id="email"
+                      placeholder="ara@mari.com"
+                      class="form-control"
+                    />
+                    <label for="email">Email</label>
+                  </div>
+      
+
+      
+                  <div class="form-floating my-4">
+                    <textarea
+                      name="query"
+                      id="query"
+                      style="height: 150px"
+                      placeholder="Type your message here"
+                      class="form-control"
+                    ></textarea>
+                    <label for="query">Your message:</label>
+                  </div>
+      
+                  <div class="text-center">
+                    <button type="submit" class="btn btn-success my-5 opacity-75">Send a message</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+
+        
+
+      </div>
+    
+    </main>
+
+    <footer class="bg-dark text-center text-white">
+
+    
+      <!-- Copyright -->
+      <div class="text-center p-3 bg bg-dark">
+        © 2022 Copyright:
+        <a class="text-white" href="#">Resta Limited</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <script src="js/bootstrap.js"></script>
+  </body>
+</html>
